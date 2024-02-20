@@ -21,18 +21,18 @@ EIn Discord Bot programmieren
 ## 20.2.2024
 
 ✍️ Heute habe ich... (50-100 Wörter)
+Ein wenig über den Prozess zur erstellung des Discord Bots recherchiert. Ich weiss nun wie ich diesen erstelle und programmiere. Danach habe ich noch für Modul 162 an der LB gearbeitet und habe diese nun bald fertig. 
+
 
 ## 27.2.2024
 
-- [ ] Erstes Arbeitspaket
-- [ ] ...
-- [ ] Viertes AP
+- [ ] Einen Discord Bot erstellen 
+- [ ] Grundlegenden Code aufbauen
+- [ ] Anfangen benutzerdefinierte Funktionen zu programmieren
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 1               |                      |                |                |          |
-| ...             |                      |                |                |          |
-| 4               |                      |                |                |          |
+| 1               |     Bot ist Online                 | %help               | liste mit allen Commands und was diese machen.               |          |
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
