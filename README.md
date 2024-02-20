@@ -7,16 +7,16 @@ Maxim Kohanov
 ## Grob-Planung
 
 1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
-   Meinen Noten sind okay, aber nicht gut. Ich habe beim Modul 319 mein Portfolio nicht besonders gut geführt und habe deswegen eine ungenügende Note. Destrotrotz fühle ich mich in den Basics von C# einigermasen sicher.
+Meinen Noten sind okay, aber nicht gut. Ich habe beim Modul 319 mein Portfolio nicht besonders gut geführt und habe deswegen eine ungenügende Note. Destrotrotz fühle ich mich in den Basics von C# einigermasen sicher.
    
 2. Was hatten Sie sich am Ende von LP2 vorgenomenm? Was war Ihr VBV? Wie könnten Sie diesen besonders gut üben?
    
    
 3. **Neu**: Was möchten Sie Neues lernen?
-   Objekt orientiertes programmieren
+Objekt orientiertes programmieren
    
 4. Was wäre ein geeignetes Projekt für diese LP4?
-   EIn Discord Bot programmieren
+EIn Discord Bot programmieren
 
 ## 20.2.2024
 
