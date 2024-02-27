@@ -26,7 +26,7 @@ Ein wenig über den Prozess zur erstellung des Discord Bots recherchiert. Ich we
 
 ## 27.2.2024
 
-- [ ] Einen Discord Bot erstellen 
+- [x] Einen Discord Bot erstellen 
 - [ ] Grundlegenden Code aufbauen
 - [ ] Anfangen benutzerdefinierte Funktionen zu programmieren
 
