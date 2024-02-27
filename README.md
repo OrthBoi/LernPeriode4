@@ -32,11 +32,26 @@ Ein wenig über den Prozess zur erstellung des Discord Bots recherchiert. Ich we
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 1               |     Bot ist Online                 | %help               | liste mit allen Commands und was diese machen.               |          |
+| 1               |     Bot ist Online                 | %help               | liste mit allen Commands und was diese machen.               |  Nein        |
 
 ✍️ Heute habe ich... (50-100 Wörter)
+Ich habe gelernt wie ich meinen Bot aufsetzte und habe ihn zum Server hinzugefügt. Ich muss ausserdem mit JS arbeiten (was mir nicht bewusst war) aber da es sehr ähnlich ist sollte es kein grosses Hinderniss sein, das nächste mal kann ich komplett durchstarten mit Coden. Damit der Bot online ist werde ich mithilfe einer [Website](https://google.com) den Bot hosten.
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
+
+## 05.03.2024
+
+- [ ] Bot Online bringen
+- [ ] Eine Funktion namens %help schreiben der dem User erklärt wie der Bot funktioniert und was er alles machen kann.
+- [ ] Ein Wörter Zähler coden der dem User sagt wie viele Wörter sein Text hat (nützlich für LernPeriode GitHub Commits)
+- [ ] Paar Memes einbauen
+      
+
+| Testfall-Nummer | Ausgangslage | Eingabe | Ausgabe | Erfüllt? |
+|-|-|-|-|-|
+|1|W Bot ist Online ||||
+|2|Bot ist Online|%help|Liste mit Funktionen und Commands||
+|3|Bot ist Online|String|Anzahl Wörter||
+|4|Bot ist Online|%meme|Zufälliger Meme||
 
 
 
