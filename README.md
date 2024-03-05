@@ -53,6 +53,25 @@ Ich habe gelernt wie ich meinen Bot aufsetzte und habe ihn zum Server hinzugefü
 |3|Bot ist Online|String|Anzahl Wörter||
 |4|Bot ist Online|%meme|Zufälliger Meme||
 
+Heute hatte ich grosse schwierigkeiten und konnte keines der Arbeitpakete erfüllen. Ich hatte probleme als ich den Bot mithilfe von nodemon online bringen wollte --> ![image](https://github.com/OrthBoi/LernPeriode4/assets/142886297/8fc501ca-3644-48c7-8199-91c7304e35eb)
+Ich hatte schon vorher Problem mit Node, nämlich konnte ich den Code überhaupt nicht ausführen. Das lag daran das scripts auszuführen auf meinen Gerät deaktiviert war, dies habe ich dann mit Set-ExecutionPolicy -ExecutionPolicy RemoteSigned in PowerShell behoben. 
+
+Ich werde beim nächsten mal den Bot sicherlich online bringen (somit wäre der schwerste Teil auch erledigt) die Funktionen mit % zu programmieren ist somit der einfachste Teil.
+
+## Bis zum 12.03.2024
+
+- [ ] Nodemon Error beheben und Bot Online bringen
+- [ ] Eine Funktion namens %help schreiben der dem User erklärt wie der Bot funktioniert und was er alles machen kann.
+- [ ] Ein Wörter Zähler coden der dem User sagt wie viele Wörter sein Text hat (nützlich für LernPeriode GitHub Commits)
+- [ ] Paar Memes einbauen
+      
+
+| Testfall-Nummer | Ausgangslage | Eingabe | Ausgabe | Erfüllt? |
+|-|-|-|-|-|
+|1|W Bot ist Online ||||
+|2|Bot ist Online|%help|Liste mit Funktionen und Commands||
+|3|Bot ist Online|String|Anzahl Wörter||
+|4|Bot ist Online|%meme|Zufälliger Meme||
 
 
 ## Reflexion
