@@ -60,18 +60,30 @@ Ich werde beim nächsten mal den Bot sicherlich online bringen (somit wäre der 
 
 ## Bis zum 12.03.2024
 
-- [ ] Nodemon Error beheben und Bot Online bringen
-- [ ] Eine Funktion namens %help schreiben der dem User erklärt wie der Bot funktioniert und was er alles machen kann.
-- [ ] Ein Wörter Zähler coden der dem User sagt wie viele Wörter sein Text hat (nützlich für LernPeriode GitHub Commits)
-- [ ] Paar Memes einbauen
+- [x] Nodemon Error beheben und Bot Online bringen
+- [x] Eine Funktion namens %help schreiben der dem User erklärt wie der Bot funktioniert und was er alles machen kann.
+- [x] Ein Wörter Zähler coden der dem User sagt wie viele Wörter sein Text hat (nützlich für LernPeriode GitHub Commits)
+- [x] Paar Memes einbauen
       
 
 | Testfall-Nummer | Ausgangslage | Eingabe | Ausgabe | Erfüllt? |
 |-|-|-|-|-|
-|1|W Bot ist Online ||||
-|2|Bot ist Online|%help|Liste mit Funktionen und Commands||
-|3|Bot ist Online|String|Anzahl Wörter||
-|4|Bot ist Online|%meme|Zufälliger Meme||
+|1|W Bot ist Online |||Ja|
+|2|Bot ist Online|%help|Liste mit Funktionen und Commands|Ja|
+|3|Bot ist Online|String|Anzahl Wörter|Ja|
+|4|Bot ist Online|%meme|Zufälliger Meme|Ja|
+
+Ich habe heute den Bot online gebracht, das Problem mit Nodemon lag daran das mein Bot noch in keinen Server drinnen war. Ich habe alle Funktionen programmiert, am Anfang war es verwirrend aber nun habe ich einen überblick und weiss ungefähr wie die Basics von JS funktionieren zum Beispiel wie man mit Variabeln umgeht (try und var) da es kein string und int gibt wie in C# an denen ich mich bereits gewöhnt habe. Ich habe eine help liste erstellt und dabei \n benutzt für neue Zeilen. Für den Wörter Zähler musste ich mit ChatGPT nachhelfen nachdem mein Model nicht funktionert hat, das lag darn das die Funktionen anders heissen zBs heisst "contains" in JS "includes" usw. Als meme habe ich von der Kanti ein paar witzige Sprüche von unserem Wirtschaftslehrer genommen. Dieser Text hat 148 Wörter, das weiss ich weil es mir mein Bot gesagt hat :)
+
+## 19.03.2024
+
+- [ ] Ich werde mir videos zu JS anschauen, Variabeln, Funktionen usw da es nicht so ähnlich ist wie erwartet
+- [ ] ich will ein Reminder für Tests programmieren der Namen, Fach und Datum speichert. 5 Tage vor dem Test wird eine erinnerung geschickt
+
+| Testfall-Nummer | Ausgangslage | Eingabe | Ausgabe | Erfüllt? |
+|-|-|-|-|-|
+|1|Bot ist Online |%reminder + Name + Fach + Datum|Erinnerung 5 tage vor x Datum||
+
 
 
 ## Reflexion
