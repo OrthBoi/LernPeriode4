@@ -1,0 +1,69 @@
+const { Client, IntentsBitField } = require('discord.js');
+
+const client = new Client(
+    {
+        intents: [
+            IntentsBitField.Flags.Guilds,
+            IntentsBitField.Flags.GuildMembers,
+            IntentsBitField.Flags.GuildMessages,
+            IntentsBitField.Flags.MessageContent,
+        ]
+    })
+
+// Bestätigung das Bot online ist
+client.on('ready', (c) => {
+    console.log(`${c.user.tag} is online`); 
+});
+
+// Hier sind alle Commands
+client.on('messageCreate', (message) => {
+
+    // First ever Code of this Bot written
+    if (message.content == '%CHIPI') {
+        message.reply('https://tenor.com/view/chipi-chipi-chapa-chapa-cat-gif-2724505493463639324');
+    }
+
+    // Help Command -> FERTIG
+    if (message.content == '%help') {
+        message.reply('Willkommen zum Allianz Bot! Ich have viele coole Commands wie zBs. \n%help = Diese Liste\n%string-counter = Haenge diesen Command an deinen Text an und ich sage dir wie viele Woerter dein Text hat\n%CHIPI = Das ist der allererste Code den ich geschrieben habe!\n%haldi wisdom = Wissensreiches Wissen von Emanuel Haldi');
+    }
+
+    // Zählt die anzahl Wörter in einem Text -> FERTIG
+    if (message.content.includes('stringcounter')) {
+        let userInput = message.content.replace('stringcounter', '');
+        userInput = userInput.trim();
+        let i = userInput.split(/\s+/).filter(i => i.length > 0).length;
+        if (i >= 50) {
+            message.reply('Dein Text hat ' + i + ' Woerter');
+        } else {
+            let uebrigeWoerter = 50 - i;
+            message.reply('Dein Text hat ' + i + ' Woerter, das sind ' + uebrigeWoerter + ' zu wenig!');
+        }
+    }
+
+    // Witziger Spruch von Haldi -> FERTIG
+    if (message.content == '%haldi wisdom') {
+        var randomNumber = Math.floor(Math.random() * 5) + 1;
+
+        console.log(randomNumber);
+        if (randomNumber === 1) {
+            message.reply('"Kennen Sie Olten???"\n -Emanuel Haldi\n Wirtschaftslehrer Kantonsschule Baden')
+        } else
+        if (randomNumber === 2) {
+            message.reply('"Mit einem Porsche muss man halt schon das Gesetz brechen"\n -Emanuel Haldi\n Wirtschaftslehrer Kantonsschule Baden')
+        } else
+        if (randomNumber === 3) {
+            message.reply('"Sie muessen die Frau nach den Qualitaeten aussuchen"\n -Emanuel Haldi\n Wirtschaftslehrer Kantonsschule Baden')
+        } else
+        if (randomNumber === 4) {
+            message.reply('"Wissen sie in meinem Porsche man drueckt fast gar nicht auf das Gaspedal und er fliegt schon"\n -Emanuel Haldi\n Wirtschaftslehrer Kantonsschule Baden')
+        } else
+        if (randomNumber === 5) {
+            message.reply('"Ich waehle die Gruenen fuer meine Schwester (Family first)"\n -Emanuel Haldi\n Wirtschaftslehrer Kantonsschule Baden')
+        }
+
+    }
+});
+
+// Token
+client.login("Token");
