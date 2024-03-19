@@ -77,12 +77,26 @@ Ich habe heute den Bot online gebracht, das Problem mit Nodemon lag daran das me
 
 ## 19.03.2024
 
-- [ ] Ich werde mir videos zu JS anschauen, Variabeln, Funktionen usw da es nicht so ähnlich ist wie erwartet
+- [x] Ich werde mir videos zu JS anschauen, Variabeln, Funktionen usw da es nicht so ähnlich ist wie erwartet
 - [ ] ich will ein Reminder für Tests programmieren der Namen, Fach und Datum speichert. 5 Tage vor dem Test wird eine erinnerung geschickt
 
 | Testfall-Nummer | Ausgangslage | Eingabe | Ausgabe | Erfüllt? |
 |-|-|-|-|-|
 |1|Bot ist Online |%reminder + Name + Fach + Datum|Erinnerung 5 tage vor x Datum||
+
+Ich habe die basics von JS gelernt, was jedoch nicht sehr nützlich war wie erwartet da discord.js diese nicht 1 zu 1 übersetzt benutzt. Ich hatte grosse schwierigkeiten mit dem Discord Bot und bin immer wieder in Loops reingelaufen wobei der Bot sich selber geantowrtet hat und gecrasht ist. Ausserdem habe ich herausgefunden das der Discord Bot nur für wenige Minuten online ist sobald ich mein Visual Studio schliesse, somit ist er gar nicht nützlich und als Projekt untauglich. Darum habe ich mir ein neues Projekt überlegt und zwar ein Sport Manager mit Windows Forms womit man Kalorien und seine Sportlichen Aktivitäten Speichern kann und bestimmte Ziele berechnen kann wie zbs Gewichtsabnahme Gewichtszunahme usw.
+
+## 26.03.2024
+
+- [ ] Ich werde die GUI zuende gestalten
+- [ ] Ich werde mithilfe von Arrays Daten speichern
+- [ ] Ich werde benutzerdefinierte feedbacks einbauen je nach ziel
+
+|Testfall Nummer| Ausgangslage | Eingabe | Ausgabe| Erfüllt? |
+|-|-|-|-|-|
+| 1 | GUI ist fertig | | | |
+| 2 | Eingabemöglichkeiten sind bereit | Kalorien, Sportaktivitäten usw| | |
+| 3 | Daten sind gespeicher | | Feedback je nach Ziel | | 
 
 
 
