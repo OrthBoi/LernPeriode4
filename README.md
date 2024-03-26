@@ -88,16 +88,22 @@ Ich habe die basics von JS gelernt, was jedoch nicht sehr nützlich war wie erwa
 
 ## 26.03.2024
 
-- [ ] Ich werde die GUI zuende gestalten
-- [ ] Ich werde mithilfe von Arrays Daten speichern
+- [x] Ich werde die GUI zuende gestalten
+- [x] Ich werde mithilfe von Arrays Daten speichern
 - [ ] Ich werde benutzerdefinierte feedbacks einbauen je nach ziel
 
 |Testfall Nummer| Ausgangslage | Eingabe | Ausgabe| Erfüllt? |
 |-|-|-|-|-|
-| 1 | GUI ist fertig | | | |
-| 2 | Eingabemöglichkeiten sind bereit | Kalorien, Sportaktivitäten usw| | |
+| 1 | GUI ist fertig | | |Ja|
+| 2 | Eingabemöglichkeiten sind bereit | Kalorien, Sportaktivitäten usw| |Ja|
 | 3 | Daten sind gespeicher | | Feedback je nach Ziel | | 
 
+Ich habe die Gui fertig gestaltet und für jede Funktion (Kcal zählen und Aktivitäten erfassen) ein eigenes Fenster erstellt und übergebe die Daten auf das Main Forms. Mann kan beim Kcal zähler den Namen, Kcal anzahl und nährwerte angeben welche dann in arraysd gespeichert werden. Man kann individuelle Ziel festsetzten und sieht, ob man sie heute errreicht hat.
+
+## 02.04.2024
+
+- [ ] Ich möchte das Feedback system programmieren und Tipps einbauen, wie man seine Ziele erreichen kann je nach Gebiet (Diät, Sport)
+- [ ] Ich möchte das aussehen der App verbessern.
 
 
 ## Reflexion
