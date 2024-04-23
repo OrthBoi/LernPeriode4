@@ -102,10 +102,18 @@ Ich habe die Gui fertig gestaltet und für jede Funktion (Kcal zählen und Aktiv
 
 ## 02.04.2024
 
-- [ ] Ich möchte das Feedback system programmieren und Tipps einbauen, wie man seine Ziele erreichen kann je nach Gebiet (Diät, Sport)
+- [x] Ich möchte das Feedback system programmieren und Tipps einbauen, wie man seine Ziele erreichen kann je nach Gebiet (Diät, Sport)
 - [ ] Ich möchte das aussehen der App verbessern.
 
+| Testfall-Nummer | Ausgangslage | Eingabe | Ausgabe | Erfüllt? |
+|-|-|-|-|-|
+|1|User hat Daten eingegeben|Sportaktivitäten/Nahrung|Persönliches Feedback|x|
 
+## 23.04.2024
+
+- [ ] Ich möchte mich heute auf's Modul 106 Konzentrieren da ich noch viele Lücken habe. Ich möchte 10 Arbeitsaufträge abschliessen.
+
+      
 ## Reflexion
 
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
